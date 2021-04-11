@@ -1,6 +1,6 @@
 # Helping Hand
 A project dedicated to making gaming accessible for everyone.
-https://cdn.discordapp.com/attachments/830224427907022858/830627795402489946/helpinghandfinished.png
+![helpinghandfinished4](https://user-images.githubusercontent.com/23299919/114297183-c6f8a580-9a74-11eb-923b-3387d2058a1d.png)
 http://helpinghand.games/
 ---------
 INFORMATION
