@@ -21,7 +21,6 @@ def setColorMode(state, filterType = None, recursive = False):
         sys.stdout = open('colorblindPrint.log', 'a')
 
     #elavate the program to admin to edit registry
-    elevate()
 
     editKey = wreg.OpenKey(wreg.HKEY_CURRENT_USER, r'Software\Microsoft\ColorFiltering', 0, wreg.KEY_SET_VALUE)
     viewKey = wreg.OpenKey(wreg.HKEY_CURRENT_USER, r'Software\Microsoft\ColorFiltering', 0, wreg.KEY_QUERY_VALUE)
@@ -85,5 +84,3 @@ def setColorMode(state, filterType = None, recursive = False):
     if recursive == False:
         sys.stdout.close()
         sys.stderr.close()
-
-setColorMode(0, 4)
