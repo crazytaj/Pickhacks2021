@@ -1,5 +1,5 @@
-## Helping Hand
-# A project dedicated to making gaming accessible for everyone. http://helpinghand.games/
+# Helping Hand
+## A project dedicated to making gaming accessible for everyone. http://helpinghand.games/
 
 ![helpinghandfinished4](https://user-images.githubusercontent.com/23299919/114297183-c6f8a580-9a74-11eb-923b-3387d2058a1d.png)
 ---------
