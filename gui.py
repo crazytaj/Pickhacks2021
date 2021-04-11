@@ -4,6 +4,7 @@ from gi.repository import Gtk
 import colorblind
 from elevate import elevate
 import third
+import subprocess
 
 elevate()
 
@@ -26,10 +27,14 @@ class WindowMain:
         print("on_window_main_destroy")
         Gtk.main_quit()
 
+    def on_speed_clicked(self,widget,data=None):
+        print('Speed Control')
+        subprocess.check_call(["speedcontrol.exe"])
+
     def on_cbmode_destroy(self, widget, data=None):
         print("on_cbmode_destroy")
         self.cbmode.hide()
-
+ 
     def on_color_clicked(self, widget, data=None):
         self.cbmode = self.builder.get_object('cbmode')
         self.cbmode.show()
