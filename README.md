@@ -7,4 +7,3 @@ gobject-introspection,
 winregistry,
 glade,
 mingw64,
-Cheat Engine
